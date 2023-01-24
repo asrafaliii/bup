@@ -126,6 +126,25 @@ li {
   margin-left: 10px;
 }
 
+/* VC Offices */
+.vc-banner{
+  height: 350px;
+  background-image:url("/assets/img/vc-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.vc-contact-card{
+  background-color: red;
+  width: 370px;
+  height: 230px;
+}
+.contact-icon i {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+}
+
 
 
 
