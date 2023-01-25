@@ -103,9 +103,8 @@ li {
   text-align: center;
 }
 
-/*=================================BONGHABONDHU======================== */
-
-/* Officer Profile */
+/*===============================BONGHABONDHU======================== */
+/*==============================OFFICER PROFILE====================== */
 .officer-banner {
   height: 200px;
   background-image: linear-gradient(
@@ -125,14 +124,14 @@ li {
   font-weight: bold;
 }
 .profile-nav a:hover {
-  color: var(--danger);
+  color: var(--primary);
 }
 
-.profile-nav a::after {
+/* .profile-nav a::after {
   content: "";
   height: 3px;
   width: 0;
-  background: var(--danger);
+  background: var(--primary);
   position: absolute;
   left: 0;
   bottom: -10px;
@@ -140,7 +139,7 @@ li {
 }
 .profile-nav a:hover::after {
   width: 100%;
-}
+} */
 
 .footer-content {
   margin-top: 20px;
@@ -160,6 +159,9 @@ li {
   font-size: 20px;
   margin-right: 20px;
 }
+/*==============================OFFICER PROFILE====================== */
+
+
 
 /* Campus Life */
 .campus-banner {
