@@ -1,7 +1,7 @@
 {
   "editor.fontFamily": "Operator Mono, Fira Code",
   "editor.fontSize": 16,
-  "editor.tabSize": 2,
+  "editor.tabSize": 1,
   "editor.wordWrap": "on",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorBlinking": "expand",
@@ -15,7 +15,7 @@
     "statusBar.noFolderForeground": "#fff"
   },
   "editor.tokenColorCustomizations": {
-    "comments": "#95afc0"
+    "comments": "#77c155"
   },
   "editor.linkedEditing": true,
   "editor.bracketPairColorization.enabled": true,
@@ -39,7 +39,7 @@
   // VS Code Theme Customization
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.enablePreview": false,
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.fontSize": 16,
   "diffEditor.wordWrap": "on",
   "security.workspace.trust.untrustedFiles": "open",
