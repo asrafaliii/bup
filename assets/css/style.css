@@ -294,6 +294,27 @@ li {
   height: 40px;
 }
 /*============================FACULTY PROFILE======================== */
+/*============================ACADEMICS======================== */
+.program-type h1 {
+  font-size: 25px;
+  line-height: 24px;
+  color: #fe4a51;
+  font-weight: bold;
+}
+.program-text h1 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #7b7b7b;
+  margin-bottom: 0;
+}
+.program-text p {
+  font-size: 12px;
+  line-height: 15px;
+  border: 2px solid #7b7b7b;
+  padding: 7px;
+  margin-bottom: 0;
+}
+/*============================ACADEMICS======================== */
 /*============================BREAK POINT======================== */
 @media only screen and (max-width: 768px) {
   .topbar {
