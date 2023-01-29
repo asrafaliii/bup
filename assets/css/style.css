@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
 * {
   margin: 0;
@@ -22,7 +22,7 @@ li {
   --white: #fff;
   --balck: #000;
   /*font family*/
-  --font-popins: 'Poppins', 'sans-serif';
+  --font-popins: "Poppins", "sans-serif";
 }
 
 /* Top Bar */
@@ -34,6 +34,25 @@ li {
 }
 
 /* Navbar */
+.dropdown-hov {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-3em);
+  transition: all 0.3s ease;
+}
+.dropdown-hover:hover > .dropdown-menu {
+  display: inline-block;
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0s, 0s, 0.3s;
+}
+
+.dropdown-hover > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
 .navbar-nav li {
   padding: 0 15px;
   font-weight: bold;
@@ -189,7 +208,7 @@ li {
       rgba(42, 12, 13, 0.75),
       rgba(1, 39, 11, 0.75)
     ),
-    url('/assets/img/bup/banner.jpg');
+    url("/assets/img/bup/banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -207,7 +226,7 @@ li {
   /* margin-left: 10px; */
 }
 .home-academics {
-  background-image: url('/assets/img/home/backgound.png');
+  background-image: url("/assets/img/home/backgound.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -241,7 +260,7 @@ li {
 }
 .bb-hero-section {
   height: 500px;
-  background-image: url('/assets/img/bb/Bangonondo.jpg');
+  background-image: url("/assets/img/bb/Bangonondo.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -252,7 +271,7 @@ li {
       rgba(13, 202, 76, 0.75),
       rgba(1, 39, 11, 0.75)
     ),
-    url('/assets/img/bb/bb-banner.jpg');
+    url("/assets/img/bb/bb-banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -287,7 +306,7 @@ li {
       rgba(13, 202, 76, 0.75),
       rgba(1, 39, 11, 0.75)
     ),
-    url('/assets/img/banner.jpg');
+    url("/assets/img/banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -343,7 +362,7 @@ li {
       rgba(13, 202, 76, 0.75),
       rgba(1, 39, 11, 0.75)
     ),
-    url('/assets/img/banner.jpg');
+    url("/assets/img/banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -366,7 +385,7 @@ li {
 /* VC Offices */
 .vc-banner {
   height: 350px;
-  background-image: url('/assets/img/vc-banner.jpg');
+  background-image: url("/assets/img/vc-banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -398,7 +417,7 @@ li {
       rgba(31, 33, 32, 0.75),
       rgba(175, 182, 177, 0.75)
     ),
-    url('/assets/img/banner.jpg');
+    url("/assets/img/banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -409,7 +428,7 @@ li {
       rgba(31, 33, 32, 0.75),
       rgba(175, 182, 177, 0.75)
     ),
-    url('/assets/img/banner.jpg');
+    url("/assets/img/banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -441,7 +460,7 @@ li {
       rgba(13, 202, 76, 0.75),
       rgba(1, 39, 11, 0.75)
     ),
-    url('/assets/img/banner.jpg');
+    url("/assets/img/banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
