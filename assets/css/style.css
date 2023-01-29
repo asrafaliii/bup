@@ -241,10 +241,17 @@ li {
 .bb-navbar-nav li a:hover {
   color: var(--secondary);
 }
+.bb-hero-section {
+  height: 500px;
+  background-image: url('/assets/img/bb/Bangonondo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .bb-baner-section {
   height: 500px;
   background-image: linear-gradient(
-      rgba(42, 12, 13, 0.75),
+      rgba(13, 202, 76, 0.75),
       rgba(1, 39, 11, 0.75)
     ),
     url('/assets/img/bb/bb-banner.jpg');
