@@ -137,6 +137,42 @@ li {
 }
 
 /*===============================BONGHABONDHU======================== */
+/* --------------------------Senate Member--------------------------- */
+.scm-hero {
+  height: 250px;
+  background-image: linear-gradient(
+      rgba(13, 202, 76, 0.75),
+      rgba(1, 39, 11, 0.75)
+    ),
+    url('/assets/img/vc/vc-cover.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.scm-social-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.scm-social-icon i {
+  width: 40px;
+  height: 40px;
+  background-color: var(--white);
+  color: #006a4e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.scm-social-icon i:hover {
+  background-color: #006a4e;
+  color: var(--white);
+}
+
+/* -------------------------/Senate Member--------------------------- */
 /*==============================OFFICER PROFILE====================== */
 .officer-banner {
   height: 200px;
