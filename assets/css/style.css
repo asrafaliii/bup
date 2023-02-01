@@ -80,6 +80,9 @@ li {
   background-position: center;
   background-size: cover;
 }
+.glance-bg {
+  background: #000000a6;
+}
 
 /* ---------------------------------/Home---------------------------------- */
 /* ---------------------Faculty of Business Studies------------------------ */
