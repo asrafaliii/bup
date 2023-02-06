@@ -125,6 +125,19 @@ li {
 }
 
 /* ---------------------------------/Home---------------------------------- */
+/* ----------------------------------IQAC---------------------------------- */
+.iqac-footer {
+  background-image: linear-gradient(
+      rgba(13, 202, 76, 0.75),
+      rgba(1, 39, 11, 0.75)
+    ),
+    url('/assets/img/bup/banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* ----------------------------------/IQAC---------------------------------- */
+
 /* ---------------------Faculty of Business Studies------------------------ */
 .business-hero {
   height: 400px;
