@@ -79,7 +79,7 @@ li {
   width: 260px;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #008cba;
+  background-color: #01803d;
 }
 
 .over-container:hover .overlay {
@@ -138,7 +138,7 @@ li {
   background-size: cover;
 }
 .business-banner-card {
-  height: 500px;
+  height: 400px;
   background-image: linear-gradient(
       rgba(237, 28, 36, 0.4),
       rgba(237, 28, 36, 0.4)
