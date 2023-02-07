@@ -137,7 +137,10 @@ li {
   background-size: cover;
 }
 /* ----------------------------------/IQAC---------------------------------- */
-
+.swiper {
+  width: 600px;
+  height: 300px;
+}
 /* ---------------------Faculty of Business Studies------------------------ */
 .business-hero {
   height: 400px;
