@@ -51,10 +51,17 @@ li {
 .dropdown-hover:hover > .dropdown-menu {
   display: block;
   left: 0;
+  transform-origin: 0 0;
+  animation: Grow 0.4s ease-in-out;
 }
 
 .dropdown-hover > .dropdown-toggle:active {
   pointer-events: none;
+}
+
+.dropdown-item-group a {
+  font-size: 16px;
+  font-weight: bold;
 }
 /* -----------------------------------/Nav--------------------------------- */
 /* ----------------------------------Home---------------------------------- */
