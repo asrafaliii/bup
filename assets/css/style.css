@@ -51,10 +51,21 @@ li {
 .dropdown-hover:hover > .dropdown-menu {
   display: block;
   left: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-animation: fadeLeft 0.4s ease-in-out;
+  animation: fadeLeft 0.4s ease-in-out;
+  -webkit-transform-origin: 0 0;
   transform-origin: 0 0;
+  -webkit-animation: Grow 0.4s ease-in-out;
   animation: Grow 0.4s ease-in-out;
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation: flipInX 0.6s ease-in-out;
+  animation: flipInX 0.6s ease-in-out;
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
 }
-
 .dropdown-hover > .dropdown-toggle:active {
   pointer-events: none;
 }
@@ -132,6 +143,39 @@ li {
 }
 
 /* ---------------------------------/Home---------------------------------- */
+
+/* ----------------------------------CHSR---------------------------------- */
+.chsr-nav li a {
+  color: var(--white);
+  margin-right: 20px;
+}
+.chsr-nav li a:hover {
+  color: whitesmoke;
+}
+
+.chsr-hero-section {
+  height: 400px;
+  background-image: linear-gradient(
+      rgba(237, 28, 36, 0.4),
+      rgba(237, 28, 36, 0.4)
+    ),
+    url('/assets/img/chsr/607A2320.JPG');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.chsr-Degree-section {
+  height: 300px;
+  background-image: linear-gradient(
+      rgba(237, 10, 36, 0.6),
+      rgba(237, 10, 10, 0.9)
+    ),
+    url('/assets/img/bup/banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* ---------------------------------/CHSR---------------------------------- */
 /* ----------------------------------IQAC---------------------------------- */
 .iqac-footer {
   background-image: linear-gradient(
