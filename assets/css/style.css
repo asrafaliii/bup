@@ -188,10 +188,6 @@ li {
   background-size: cover;
 }
 /* ----------------------------------/IQAC---------------------------------- */
-.swiper {
-  width: 600px;
-  height: 300px;
-}
 /* ---------------------Faculty of Business Studies------------------------ */
 .business-hero {
   height: 400px;
@@ -330,6 +326,24 @@ li {
 /* ---------------------------- /Vc Offices-------------------------------- */
 /* -----------------------------Campus Life-------------------------------- */
 /* ----------------------------/Campus Life-------------------------------- */
+/* ---------------------------------OEFCD---------------------------------- */
+.ofecd-hero-section {
+  height: 500px;
+  background-image: url('/assets/img/bup/ofecd.JPG');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ofecd-navbar-nav li {
+  padding: 0 8px;
+  font-weight: bold;
+}
+.ofecd-navbar-nav li a:hover {
+  color: var(--secondary);
+}
+.ofecd-bg {
+}
+/* --------------------------------/OEFCD---------------------------------- */
 
 /*=================================BONGHABONDHU======================== */
 
